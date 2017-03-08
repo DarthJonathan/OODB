@@ -45,8 +45,8 @@
             this.reviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.footerTime = new System.Windows.Forms.Timer(this.components);
             this.footertimestat = new System.Windows.Forms.ToolStripStatusLabel();
+            this.footerTime = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -59,7 +59,7 @@
             this.serviceToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(893, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1060, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -84,19 +84,19 @@
             // registerToolStripMenuItem
             // 
             this.registerToolStripMenuItem.Name = "registerToolStripMenuItem";
-            this.registerToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.registerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.registerToolStripMenuItem.Text = "Register";
             // 
             // signOutToolStripMenuItem
             // 
             this.signOutToolStripMenuItem.Name = "signOutToolStripMenuItem";
-            this.signOutToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.signOutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.signOutToolStripMenuItem.Text = "Sign Out";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // staffMenuToolStripMenuItem
@@ -160,9 +160,9 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.footertimestat});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 468);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 641);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(893, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1060, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -171,25 +171,26 @@
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
             // 
+            // footertimestat
+            // 
+            this.footertimestat.Name = "footertimestat";
+            this.footertimestat.Size = new System.Drawing.Size(0, 17);
+            // 
             // footerTime
             // 
             this.footerTime.Enabled = true;
             this.footerTime.Interval = 1000;
             this.footerTime.Tick += new System.EventHandler(this.footerTime_Tick);
             // 
-            // footertimestat
-            // 
-            this.footertimestat.Name = "footertimestat";
-            this.footertimestat.Size = new System.Drawing.Size(0, 17);
-            // 
             // CarRental
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(893, 490);
+            this.ClientSize = new System.Drawing.Size(1060, 663);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "CarRental";
             this.Text = "MainForm";

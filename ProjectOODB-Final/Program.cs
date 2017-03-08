@@ -25,8 +25,6 @@ namespace ProjectOODB_Final
         static void login()
         {
             isLoggedIn = true;
-
-
         }
     }
 }

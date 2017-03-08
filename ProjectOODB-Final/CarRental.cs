@@ -26,7 +26,22 @@ namespace ProjectOODB_Final
 
         private void loginToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            if (this.MdiChildren.Count() > 0)
+            {
+                foreach (Form child in this.MdiChildren)
+                {
+                    if (this.MdiChildren.Contains(loginForm))
+                    {
+                        child.Close();
+                    }
+
+                }
+            }
+            else
+            {
+                loginForm.MdiParent = this;
+                loginForm.Show();
+            }
         }
     }
 

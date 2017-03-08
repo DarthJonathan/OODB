@@ -8,3 +8,13 @@ d:\documents\visual studio 2015\Projects\ProjectOODB-Final\ProjectOODB-Final\obj
 d:\documents\visual studio 2015\Projects\ProjectOODB-Final\ProjectOODB-Final\obj\Debug\ProjectOODB-Final.pdb
 d:\documents\visual studio 2015\Projects\ProjectOODB-Final\ProjectOODB-Final\obj\Debug\ProjectOODB_Final.CarRental.resources
 d:\documents\visual studio 2015\Projects\ProjectOODB-Final\ProjectOODB-Final\obj\Debug\ProjectOODB_Final.LoginForm.resources
+D:\Documents\GitHub\OODB\ProjectOODB-Final\bin\Debug\ProjectOODB-Final.exe.config
+D:\Documents\GitHub\OODB\ProjectOODB-Final\obj\Debug\ProjectOODB-Final.exe
+D:\Documents\GitHub\OODB\ProjectOODB-Final\obj\Debug\ProjectOODB-Final.pdb
+D:\Documents\GitHub\OODB\ProjectOODB-Final\bin\Debug\ProjectOODB-Final.exe
+D:\Documents\GitHub\OODB\ProjectOODB-Final\bin\Debug\ProjectOODB-Final.pdb
+D:\Documents\GitHub\OODB\ProjectOODB-Final\obj\Debug\ProjectOODB-Final.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\OODB\ProjectOODB-Final\obj\Debug\ProjectOODB_Final.CarRental.resources
+D:\Documents\GitHub\OODB\ProjectOODB-Final\obj\Debug\ProjectOODB_Final.LoginForm.resources
+D:\Documents\GitHub\OODB\ProjectOODB-Final\obj\Debug\ProjectOODB_Final.Properties.Resources.resources
+D:\Documents\GitHub\OODB\ProjectOODB-Final\obj\Debug\ProjectOODB-Final.csproj.GenerateResource.Cache
