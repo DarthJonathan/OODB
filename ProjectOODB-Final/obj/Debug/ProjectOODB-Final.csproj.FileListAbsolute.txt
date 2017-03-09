@@ -18,3 +18,4 @@ D:\Documents\GitHub\OODB\ProjectOODB-Final\obj\Debug\ProjectOODB_Final.CarRental
 D:\Documents\GitHub\OODB\ProjectOODB-Final\obj\Debug\ProjectOODB_Final.LoginForm.resources
 D:\Documents\GitHub\OODB\ProjectOODB-Final\obj\Debug\ProjectOODB_Final.Properties.Resources.resources
 D:\Documents\GitHub\OODB\ProjectOODB-Final\obj\Debug\ProjectOODB-Final.csproj.GenerateResource.Cache
+D:\Documents\GitHub\OODB\ProjectOODB-Final\obj\Debug\ProjectOODB_Final.RegisterForm.resources

@@ -13,6 +13,7 @@ namespace ProjectOODB_Final
     public partial class CarRental : Form
     {
         LoginForm loginForm = new LoginForm();
+        RegisterForm registerForm = new RegisterForm();
 
         public CarRental()
         {
@@ -26,6 +27,8 @@ namespace ProjectOODB_Final
 
         private void loginToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            loginForm = new LoginForm();
+
             if (this.MdiChildren.Count() > 0)
             {
                 foreach (Form child in this.MdiChildren)
@@ -41,6 +44,28 @@ namespace ProjectOODB_Final
             {
                 loginForm.MdiParent = this;
                 loginForm.Show();
+            }
+        }
+
+        private void registerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            registerForm = new RegisterForm();
+
+            if (this.MdiChildren.Count() > 0)
+            {
+                foreach (Form child in this.MdiChildren)
+                {
+                    if (this.MdiChildren.Contains(registerForm))
+                    {
+                        child.Close();
+                    }
+
+                }
+            }
+            else
+            {
+                registerForm.MdiParent = this;
+                registerForm.Show();
             }
         }
     }
