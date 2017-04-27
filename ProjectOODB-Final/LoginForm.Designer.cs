@@ -82,6 +82,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(265, 376);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(149, 26);
@@ -95,7 +96,7 @@
             this.loginButton.Location = new System.Drawing.Point(136, 279);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(180, 62);
-            this.loginButton.TabIndex = 1;
+            this.loginButton.TabIndex = 3;
             this.loginButton.Text = "Login";
             this.loginButton.UseVisualStyleBackColor = true;
             this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
@@ -106,7 +107,7 @@
             this.emailForm.Location = new System.Drawing.Point(185, 112);
             this.emailForm.Name = "emailForm";
             this.emailForm.Size = new System.Drawing.Size(207, 35);
-            this.emailForm.TabIndex = 2;
+            this.emailForm.TabIndex = 1;
             // 
             // passwordForm
             // 

@@ -18,6 +18,7 @@ namespace ProjectOODB_Final
             this.password = password;
             this.userid = userid;
             this.rolename = rolename;
+            this.address = address;
         }
 
 

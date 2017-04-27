@@ -18,6 +18,33 @@ namespace ProjectOODB_Final
         public CarRental()
         {
             InitializeComponent();
+
+            //So the user cannot rescale the window, TO:DO user can still minimize fix this
+            this.WindowState = FormWindowState.Maximized;
+
+            //Hide and show menu if logged in
+            if(SessionData.isSignedIn == false)
+            {
+                this.signOutToolStripMenuItem.Visible = false;
+                this.loginToolStripMenuItem.Visible = true;
+                this.registerToolStripMenuItem.Visible = true;
+                this.serviceToolStripMenuItem.Visible = false;
+                this.staffMenuToolStripMenuItem.Visible = false;
+            }
+            else if(SessionData.loginType.Equals("Staff"))
+            {
+                this.signOutToolStripMenuItem.Visible = true;
+                this.loginToolStripMenuItem.Visible = false;
+                this.registerToolStripMenuItem.Visible = false;
+                this.serviceToolStripMenuItem.Visible = false;
+            }else if(SessionData.loginType.Equals("Customer"))
+            {
+                this.signOutToolStripMenuItem.Visible = true;
+                this.loginToolStripMenuItem.Visible = false;
+                this.registerToolStripMenuItem.Visible = false;
+                this.staffMenuToolStripMenuItem.Visible = false;
+            }
+           
         }
 
         private void footerTime_Tick(object sender, EventArgs e)

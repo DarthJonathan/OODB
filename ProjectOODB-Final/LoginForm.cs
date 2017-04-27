@@ -26,13 +26,30 @@ namespace ProjectOODB_Final
             }else if (string.IsNullOrWhiteSpace(passwordForm.Text))
             {
                 MessageBox.Show("Password Must Be Filled!");
+            }else
+            {
+                //TO:DO check password and username on database
+                if(true)
+                {
+                    SessionData.isSignedIn = true;
+                    //TO:DO take the user type from database
+                    SessionData.loginType = "Customer";
+                    MessageBox.Show("You are now logged in!");
+                    this.Close();
+                }else
+                {
+                    MessageBox.Show("Wrong username or password!");
+                }
             }
         }
 
         //Register Now Button
         private void label5_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            RegisterForm regis = new RegisterForm();
+            regis.MdiParent = this.MdiParent;
+            regis.Show();
         }
     }
 }
