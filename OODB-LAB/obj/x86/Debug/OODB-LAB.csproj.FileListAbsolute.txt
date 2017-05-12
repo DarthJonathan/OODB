@@ -1,0 +1,9 @@
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\bin\Debug\OODB-LAB.exe
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\bin\Debug\OODB-LAB.pdb
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Debug\OODB_LAB.CarRental.resources
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Debug\OODB_LAB.LoginForm.resources
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Debug\OODB_LAB.Properties.Resources.resources
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Debug\OODB_LAB.RegisterForm.resources
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Debug\OODB-LAB.csproj.GenerateResource.Cache
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Debug\OODB-LAB.exe
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Debug\OODB-LAB.pdb

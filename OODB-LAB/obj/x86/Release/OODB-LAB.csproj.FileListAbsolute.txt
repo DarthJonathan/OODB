@@ -1,0 +1,10 @@
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\bin\Release\OODB-LAB.exe
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\bin\Release\OODB-LAB.pdb
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Release\OODB_LAB.Properties.Resources.resources
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Release\OODB-LAB.csproj.GenerateResource.Cache
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Release\OODB-LAB.exe
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Release\OODB-LAB.pdb
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Release\OODB_LAB.CarRental.resources
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Release\OODB_LAB.LoginForm.resources
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Release\ProjectOODB_Final.MasterCarForm.resources
+d:\documents\visual studio 2010\Projects\OODB-LAB\OODB-LAB\obj\x86\Release\OODB_LAB.RegisterForm.resources
